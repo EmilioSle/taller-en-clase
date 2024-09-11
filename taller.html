@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="es"> <!-- Define el inicio y el fin de todo el contenido HTML de la página web-->
+<head> <!--Contiene información meta sobre el documento web para interpretar correctamente la página-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida - Emilio Sleimen Cardenas Avila</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Hoja de Vida - Emilio Sleimen Cardenas Avila</title> <!--Define el título de la página web que se muestra en la pestaña del navegador-->
+    <link rel="stylesheet" href="styles.css"> <!--Se utiliza principalmente para enlazar documentos externos con el documento HTML actual-->
 </head>
-<body>
+<body> <!--Define la sección principal del documento donde se coloca todo el contenido visible-->
     <header>
-        <div class="header-content">
+        <div class="header-content"> <!--<div>: Es un contenedor genérico-->
             <div class="header-info">
-                <h1>Emilio Cardenas</h1>
+                <h1>Emilio Cardenas</h1> <!--h1 Se utiliza para definir el encabezado de nivel 1, que es el nivel más alto en la jerarquía de encabezados-->
                 <p>Correo: emiliosleimen555.com | Teléfono: +593962720681 | CI: 1317125738</p>
+                <!--<p></p> define un párrafo de texto-->
             </div>
         </div>
     </header>
 
-    <section class="about">
+    <section class="about"> <!--Se usa para agrupar contenido relacionado en secciones temáticas-->
         <div class="about-content">
             <img src="./foto.png" alt="Foto de Emilio Cardenas" class="about-photo">
+            <!--se utiliza para incrustar imágenes en un documento. Es una etiqueta en línea, lo que significa que no genera un salto de línea antes o después de la imagen.-->
             <div class="about-text">
-                <h2>Sobre Mí</h2>
+                <h2>Sobre Mí</h2> <!--Se usa para los subtítulos o secciones principales dentro de una página o documento.-->
                 <p>Soy un apasionado por la tecnología y el diseño de software con una gran admiración por los avances tecnológicos. Valoro la honestidad y me esfuerzo por ser una persona comprensiva y abierta. He participado en varios proyectos de voluntariado que han tenido un impacto positivo en mi comunidad. Mi objetivo es utilizar mi creatividad para desarrollar soluciones innovadoras que protejan nuestro planeta. Actualmente, estudio ingeniería software.</p>
-
+                <!--<p></p> define un párrafo de texto --> 
             </div>
         </div>
     </section>
@@ -54,16 +56,48 @@
         </div>
     </section>
 
-    <section class="Habilidades">
-        <h2>Habilidades</h2>
-            <p> Nombre: Genesis Barcia | Correo: genesisbarcia@gmail.com | Teléfono: +593962782331 | CI: 1317235738</p>
-            <p> Nombre: Jesus Montes | Correo: JesusMontes@gmail.com | Teléfono: +593782782331 | CI: 1317235458</p>
-            <p> Nombre: Maykel Mendes | Correo: maykel@gmail.com | Teléfono: +5937827831 | CI: 2112434458</p>
-            <p> Nombre: Walther Guitierrez | Correo: Jwalther@gmail.com | Teléfono: +593785452331 | CI: 13143435458</p>
-    </section>
+    <section class="Referencias">
+        <h2>Referencias</h2>
+        <table border="1"> <!--Se utiliza para crear tablas, que permiten organizar datos en filas y columnas-->
+            <thead> <!--Se utiliza para agrupar el contenido de la fila de encabezado de una tabla-->
+                <tr> <!--Se utiliza para definir una fila en una tabla. Dentro de una tabla-->
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Teléfono</th>
+                    <th>CI</th>
+                </tr>
+            </thead>
+            <tbody> <!--Se utiliza para agrupar el contenido principal del cuerpo de una tabla-->
+                <tr>
+                    <td>Genesis Barcia</td> <!--Se utiliza para definir una celda de datos dentro de una fila-->
+                    <td>genesisbarcia@gmail.com</td>
+                    <td>+593962782331</td>
+                    <td>1317235738</td>
+                </tr>
+                <tr>
+                    <td>Jesus Montes</td>
+                    <td>JesusMontes@gmail.com</td>
+                    <td>+593782782331</td>
+                    <td>1317235458</td>
+                </tr>
+                <tr>
+                    <td>Maykel Mendes</td>
+                    <td>maykel@gmail.com</td>
+                    <td>+5937827831</td>
+                    <td>2112434458</td>
+                </tr>
+                <tr>
+                    <td>Walther Guitierrez</td>
+                    <td>Jwalther@gmail.com</td>
+                    <td>+593785452331</td>
+                    <td>13143435458</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>    
     
     <section class="Habilidadess">
-        <h2>Referencias</h2>
+        <h2>Habilidadess</h2>
         <ul>
             <li>Conocimeintos en ofimatica </li>
             <li>Rapidez de aprendizaje</li>
@@ -71,8 +105,8 @@
             <li>Ingles nivel A2</li>
         </ul>
     </section>
-
-    <footer>
+ 
+    <footer> <!--se utiliza para definir una sección de pie de página en un documento o una sección específica-->
         <p>© 2024 Emilio Cardenas. Todos los derechos reservados.</p>
     </footer>
 </body>
